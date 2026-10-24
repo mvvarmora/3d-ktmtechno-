@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Architecture | #1 Web 3D Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Three.js CDN -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+
+    <main id="app">
+        <nav>
+            <div class="logo">NEURAL<span>.ARC</span></div>
+            <div class="nav-links">
+                <a href="#work">WO8RK8</a>
+                <a href="#skills">STACK</a>
+                <a href="#contact" class="cta">HIRE ME</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="NO1 WEB 3D ARCHITECUTER DEVLOPER">NO1 WEB 3D ARCHITECUTER DEVLOPER</h1>
+                <p class="tagline">Building the future of Agentic Platforms: Premura & CHIC AI</p>
+                <div class="tech-stack-pills">
+                    <span class="pill">HTML8</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">JS</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="info-panel" class="glass-card hidden">
+            <button class="close-btn">&times;</button>
+            <div class="panel-content">
+                <h2 id="node-title">Project Name</h2>
+                <p id="node-description">Project description goes here.</p>
+                <a href="#" id="node-link" class="btn">Explore Project</a>
+            </div>
+        </section>
+
+        <section id="work" class="projects-section">
+            <div class="project-card" id="premura-card">
+                <div class="project-info">
+                    <h3>PREMURA</h3>
+                    <p>Agentic Intelligence Platform</p>
+                    <div class="tag">ENTERPRISE</div>
+                </div>
+            </div>
+            <div class="project-card" id="chic-card">
+                <div class="project-info">
+                    <h3>CHIC AI</h3>
+                    <p>Generative Fashion Studio</p>
+                    <div class="tag">CREATIVE</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
